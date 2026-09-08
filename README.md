@@ -39,7 +39,7 @@ Redactor reads `input.txt`, applies the replacement rules from `replacements.jso
 Given the following input file:
 
 ```text
-Dunder Mifflin owns several security brands.
+Dunder Mifflin owns several brands of paper.
 
 More information is available at dundermifflin.com.
 
@@ -74,7 +74,7 @@ python redactor.py input.txt replacements.json output.txt
 produces:
 
 ```text
-Corpo owns several security brands.
+Corpo owns several brands of paper.
 
 More information is available at corpo.com.
 
